@@ -1,0 +1,174 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+
+        ,
+        {
+            "name": "Attach: Microsoft cloud Sandbox_Evelien_nov24",
+            "type": "al",
+            "request": "attach",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_Evelien_nov24",
+            "tenant": "eb59c9d8-97b8-491f-8ae1-36ecc7fbe5ec",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "breakOnNext": "WebClient",
+            "sessionId": 1048888
+        },
+                       
+        {
+            "name": "Sandbox Evelien_nov24 Synchronize",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_Evelien_nov24",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "Synchronize",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Sandbox_Evelien_nov24 ForceSync",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_Evelien_nov24",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+       
+        {
+            "name": "AL: Generated Download Symbols request Sandbox_Evelien_nov24",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_Evelien_nov24",
+            "tenant": "eb59c9d8-97b8-491f-8ae1-36ecc7fbe5ec"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_Evelien_nov24",
+            "sessionId": 122881,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "eb59c9d8-97b8-491f-8ae1-36ecc7fbe5ec"
+        },
+        {
+            "name": "Synchronize Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "Synchronize",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "ForceSync Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Sandbox2024_grEw synchronize Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2024_grEw",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "Synchronize",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Sandbox2024_grEw Recreate Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2024_grEw",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "Recreate",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Sandbox2024_grEw ForceSynchr Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2024_grEw",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "ForceSync",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2024_grEw",
+            "tenant": "eb59c9d8-97b8-491f-8ae1-36ecc7fbe5ec"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox2024_grEw",
+            "sessionId": 122881,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "eb59c9d8-97b8-491f-8ae1-36ecc7fbe5ec"
+        }
+    ]
+}
